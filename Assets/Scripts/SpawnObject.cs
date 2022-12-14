@@ -10,15 +10,15 @@ public class SpawnObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   
-        //RandomSpawn(); 
-        //SpawnFromList();
-        //SpawnFinite();
-        //SpawnInfinite();
+        RandomSpawn(); 
+        SpawnFromList();
+        SpawnFinite();
+        SpawnInfinite();
     }
 
     void Update() 
     {
-        //SpawnWithSpace();
+        SpawnWithSpace();
     }
 
 
